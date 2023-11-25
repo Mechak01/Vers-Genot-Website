@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body
+{
+    background-color:  rgb(21, 81, 44);
+}
+
+body form
+{
+    background-color: rgb(138, 91, 91);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.cards
+{
+    scale: 20%;
+    margin-right: 100%;
+    margin-top: -10%;
+}
+
+.container
+{
+    margin-left: 32%;
+}
+
+.container h1
+{
+    font-size: 24px;
+}
+
+.owner h3
+{
+    font-size: 16px;
+}
+
+.cvv h3
+{
+    font-size: 16px;
+}
+
+.Kaartnummer h3
+{
+    font-size: 16px;
+}
+
+.third-row h3
+{
+    font-size: 16px;
+}
+
+.container button
+{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: antiquewhite;
+    margin-left: 65%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.container button:hover
+{
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.container button:active
+{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

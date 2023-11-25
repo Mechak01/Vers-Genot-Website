@@ -1,0 +1,123 @@
+
+body
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    background: #a26dd0;
+    font-family: Arial;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.contact-information
+    {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        border-radius: 10px;
+        background: afff;
+        box-shadow: 0px 0px 10px 0px #666;
+    }
+
+    .contact-map
+    {
+        width: 100%;
+        height: auto;
+        flex: 50%;
+    }
+
+    .contact-map inframe
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .contact-form
+    {
+        width: 500%;
+        height: auto;
+        flex: 50%;
+        border-radius: 50px;
+        text-align: center;
+        size: 50px;
+        padding: 30px;
+    }
+
+    .contact-form h1
+    {
+        margin-bottom: 10px;
+    }
+
+    .contact-form-txt
+    {
+        width: 100%;
+        height: 40px;
+        color: rgb(0, 0, 0);
+        border: 1px solid #bcbcbc;
+        border-radius: 50px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+
+    .contact-form-txt::placeholder
+    {
+        color:#000000
+    }
+
+    .contact-form-txtarea
+    {
+        width: 100%;
+        height: 130px;
+        color: rgb(0, 0, 0);
+        border: 1px solid #bcbcbc;
+        border-radius: 25px;
+        outline: none;
+        margin-bottom: 20px;
+        padding: 15px;
+        
+    }
+
+    
+    .contact-form-textarea::placeholder
+    {
+        color:#000000
+    }
+
+    .contact-form-btn
+    {
+        width: 45%;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: #416d44;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        padding: 10px 0; 
+    }
+
+    .contact-form-btn:hover
+    {
+        opacity: 8;
+        cursor: pointer;
+    }
+
+    .contact-form-btn:active
+    {
+        opacity: 0.4;
+        cursor: pointer;
+    }
+
